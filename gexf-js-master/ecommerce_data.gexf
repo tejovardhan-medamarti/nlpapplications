@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-06-28">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="relationship" type="string" />
+      <attribute id="2" title="networkx_key" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Product_20" label="Product_20">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="Beauty" label="Beauty">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="Product_29" label="Product_29">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="Electronics" label="Electronics">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="Customer" label="Customer">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="Product_53" label="Product_53">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="Clothing" label="Clothing">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="('CUST_3735', 'Easy to use, Love it!')" label="('CUST_3735', 'Easy to use, Love it!')">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="('CUST_7038', 'Not Easy to use, Bad product!')" label="('CUST_7038', 'Not Easy to use, Bad product!')">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="Product_57" label="Product_57">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="('CUST_3644', 'Great product!, Love it!')" label="('CUST_3644', 'Great product!, Love it!')">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="('CUST_7208', 'Bad product!, Waste of Money')" label="('CUST_7208', 'Bad product!, Waste of Money')">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+      <node id="Product_45" label="Product_45">
+        <attvalues>
+          <attvalue for="0" value="entity" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Product_20" target="Beauty" id="0">
+        <attvalues>
+          <attvalue for="1" value="belongs_to_category" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Product_20" target="Customer" id="1">
+        <attvalues>
+          <attvalue for="1" value="viewed" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Product_20" target="('CUST_3735', 'Easy to use, Love it!')" id="2">
+        <attvalues>
+          <attvalue for="1" value="has_review" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Product_20" target="('CUST_7038', 'Not Easy to use, Bad product!')" id="3">
+        <attvalues>
+          <attvalue for="1" value="has_review" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Product_20" target="('CUST_7208', 'Bad product!, Waste of Money')" id="4">
+        <attvalues>
+          <attvalue for="1" value="has_review" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Product_29" target="Electronics" id="5">
+        <attvalues>
+          <attvalue for="1" value="belongs_to_category" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Customer" target="Product_53" id="6">
+        <attvalues>
+          <attvalue for="1" value="viewed" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Product_53" target="Clothing" id="7">
+        <attvalues>
+          <attvalue for="1" value="belongs_to_category" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Clothing" target="Product_45" id="8">
+        <attvalues>
+          <attvalue for="1" value="belongs_to_category" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Product_57" target="('CUST_3644', 'Great product!, Love it!')" id="9">
+        <attvalues>
+          <attvalue for="1" value="has_review" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

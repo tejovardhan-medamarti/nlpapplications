@@ -1,0 +1,11 @@
+entity_type,relationship,second_entity
+Product_20,belongs_to_category,Beauty
+Product_29,belongs_to_category,Electronics
+Customer,viewed,Product_20
+Customer,viewed,Product_53
+Product_53,belongs_to_category,Clothing
+Product_20,has_review,"('CUST_3735', 'Easy to use, Love it!')"
+Product_20,has_review,"('CUST_7038', 'Not Easy to use, Bad product!')"
+Product_57,has_review,"('CUST_3644', 'Great product!, Love it!')"
+Product_20,has_review,"('CUST_7208', 'Bad product!, Waste of Money')"
+Product_45,belongs_to_category,Clothing
